@@ -3,7 +3,7 @@
 CMYKColor
 ################################################################################
 
-``new cmykColor()``
+``new CMYKColor()``
 
 **Description**
 
@@ -118,7 +118,7 @@ Setting a CMYK color
     var frontPath = app.activeDocument.pathItems[0];
 
     // Set color values for the CMYK object
-    var newCMYKColor = new cmykColor();
+    var newCMYKColor = new CMYKColor();
     newCMYKColor.black = 0;
     newCMYKColor.cyan = 30.4;
     newCMYKColor.magenta = 32;
